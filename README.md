@@ -101,7 +101,7 @@ python src/extract_embeddings.py
 python src/build_faiss_index.py
 ```
 
-#### Launch UI
+#### <ins>Launch UI</ins>
 ```python
 streamlit run app/streamlit_visual_search.py
 ```
@@ -117,5 +117,28 @@ streamlit run app/streamlit_visual_search.py
 | Energy | Turbine blade inspection & report lookup |
 | Manufacturing | Line-side failure explanation and fix guidance |S
 
+---
 
+## Tech Highlights
+
+| Stack | Tools |
+|-------|-------|
+| Deep Learning | TensorFlow-GPU, VGG16 |
+| Vector Search | FAISS-GPU (Flat / IVF) |
+| RAG | Sentence-Transformers + PDF loader |
+| UI | Streamlit |
+| Container | NVIDIA CUDA Docker |
+
+---
+
+## 
+
+| Future Feature | Value |
+|---------------|-------|
+| YOLO segmentation | Bounding-box localized defect search |
+| Realtime edge inference | Robotics + smart cameras |
+| SAP / Maxivo connector | Automated maintenance logs |
+| API Gateway + K8s | Production deployment pipeline |
+
+---
 
