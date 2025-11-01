@@ -1,0 +1,14 @@
+tensorflow>=2.8
+numpy
+pillow
+faiss-cpu
+scikit-learn
+streamlit
+opencv-python
+pandas
+tqdm
+
+# GPU versions
+faiss-gpu
+tensorflow==2.15.0
+nvidia-cudnn-cu12
